@@ -117,7 +117,7 @@ section a{
 
 }
 .notice-section div article{
-    border: 1px solid #FFA500;
+    border: 1px solid #FFA500; 
     border-radius: 0px 10px;
     box-shadow: 2px 2px 4px #0005;
     width: 30%;
