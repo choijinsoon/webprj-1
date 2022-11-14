@@ -45,8 +45,7 @@ a{
 .boxShadowEffect{
     box-shadow: 2px 2px 4px #0005;
 }
-
-
+    
 /* ==================header=================== */
 header{
     background-color: #fff;
@@ -79,53 +78,31 @@ section a{
 
 
 
-/* =======================main========================= */
-.main-section{
-    display: flex;
-    justify-content: space-between;
-    margin: 100px 100px 50px 100px;
+/* ==================main================= */
+main{
+    height: 100vh;
+    padding-top: 150px;
 }
-.main-title{
-    font-size: 48px;
+.login-section{
+    padding-left: 200px;
 }
-.box-search{
+.login-section h1{
+    font-size: 50px;
 }
-.btn-search{
-    width: 64px;
-    height: 32px;
+.login-section div{
+    padding-top: 50px;
+}
+.login-section div button{
+    width: 100px;
+    height: 50px;
+    float: right;
+    margin-right: 200px;
     border: 1px solid black;
     border-radius: 0px 10px;
     background-color: #FFA500;
     border-color: #FFA500;
+    color: #fff
 }
-.btn-search a{
+.login-section div button a{
     color: #fff;
-}
-
-
-.notice-section{
-}
-.notice-section div{
-    display: flex;
-    justify-content: space-between;
-    
-    padding-top: 80px;
-}
-.article-row-div{
-    display: flex;
-    justify-content: space-between;
-
-}
-.notice-section div article{
-    border: 1px solid #FFA500;
-    border-radius: 0px 10px;
-    box-shadow: 2px 2px 4px #0005;
-    width: 30%;
-    height: 250px;
-    
-    margin-left: 50px;
-    padding: 16px;
-}
-.notice-section div article:last-child{
-    margin-right: 50px;
 }

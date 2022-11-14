@@ -60,13 +60,13 @@ header ul{
     justify-content: space-between;
 }
 ul li{
-    padding: 1em;
+    padding: 16px;
 }
 .logo{
-    padding: 1em;
+    padding: 16px;
 }
 .img-logo{
-    width: 5em;
+    width: 80px;
 }
 section a{
     color: #0008;
@@ -80,23 +80,25 @@ section a{
 
 
 /* ==================main================= */
-.main-img-section{
-    height: 54em;
+.main-section{
+    height: 95vh;
     background: url(../images/flight.png) no-repeat center/cover;
 }
 .main-title{
-    font-size: 5em;
+    font-size: 80px;
     text-align: center;
-    padding-top: 1em;
+    padding-top: 100px;
 }
 .main-div{
-    padding-top: 10em;
-    padding-left: 15em;
-    padding-right: 15em;
+    padding-top: 160px;
+    padding: 100px;
+    display: flex;
+    justify-content: center;
 }
-.main-div .main-search{
+.main-search{
+    width: 80%;
     border: 2px solid;
-    padding: 5em;
+    padding: 100px;
 }
 .search-option{
     display: flex;
@@ -104,10 +106,10 @@ section a{
     pad
 }
 .search-option input{
-    width: 30em;
-    height: 3em;
+    width: 200px;
+    height: 50px;
 }
 .search-option button{
-    width: 10em;
-    height: 3em;
+    width: 100px;
+    height: 50px;
 }
